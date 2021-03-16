@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.logotxt{
+
+  width: 100vw;
+  text-align: center;
+  }
+  .logotxt a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-family: 'Merriweather', serif;
+    
+    
+  }
+  .home #logo{
+    margin-top:4.5% ;
+  width: 40vw;
+  height: 25vh;
+  
+  }
+  .home{
+    height: 65vh;
+    width: 100vw;
+    background: url("C:\Users\gunja\Desktop\react\INTERVIEWTRACKING\src\images\home\bgpic.jpg") no-repeat;
+    background-size: cover;
+  
+  }
+  .home h2{
+    margin-top: -20px;
+    color: rgb(99, 99, 99);
+  }
+  .home-content{
+    height: 23vh;
+    padding-top: 4.5vh ;
+    text-align: center;
+    
+  }
+  .home-content button{
+    margin: 2vw;
+    font-size: 1.5rem;
+    width: 15rem;
+   
+  }
+  #createform label{
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+  }
+  .createbox{
+    border: 0px solid rgba(255, 255, 255, 0.767);
+    box-shadow: 0px 0px 16px 0px rgba(98, 98, 98, 0.767);
+    border-radius: 20px;
+    width: 38vw;
+    min-height: 30vw;
+    padding:2vw ;
+    margin: 2vh;
+    background: rgba(255, 255, 255, 0.856);
+  }
+  .creatbg{
+    background: url("C:\Users\gunja\Desktop\react\INTERVIEWTRACKING\src\images\home\create.jpeg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 60vw;
+  }
+  .creatcbg{
+    background: url("C:\Users\gunja\Desktop\react\INTERVIEWTRACKING\src\images\home\create.jpeg") ;
+    background-size: cover;
+    opacity: 0.9;
+    min-height: 100vh;
+    min-width: 60vw;
+  }
+
+ 
+  .creatcbg .form-control:focus{
+    outline: 0;
+    border-top: none;
+    border-top: none;
+    border-right: none;
+    border: none;
+    box-shadow:none;
+    border-bottom:2px solid rgb(6, 194, 68);
+    box-shadow:none;
+  
+  
+  }
+  .creatbg .form-control{
+    border-top: none;
+    border-top: none;
+    border-right: none;
+    border: none;
+    box-shadow:none;
+    border-bottom:1px solid rgb(65, 65, 65);
+    border-radius: 0px;
+    background: rgba(255, 255, 255, 0);
+    margin-top: 5px;
+  }
+  .creatbg #hr{
+    margin-right: 20px;
+  }
+  .creatbg input[type=radio]{
+  margin: 2px;
+  }
+  #createform button{
+    width: 20%;
+  margin-top: 4%;
+  
+  
+  }
+  .list{
+    background: url("C:\Users\gunja\Desktop\react\INTERVIEWTRACKING\src\images\home\listbg.jpg")no-repeat;
+    background-size: cover;
+    min-width: 67vw;
+    min-height: 55vh;
+  }
+  .list .btndiv{
+  
+    width: 100vw;
+  }
+  .list button{
+    padding: 10px;
+  }
+  .list table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    
+  }
+  .list table{
+    min-width: 64vw;
+    height: 60vw;
+    overflow: scroll;
+    font-size: 0.8rem;
+  }
+  .list thead{
+    background-color: rgba(2, 127, 177, 0.657);
+    color: white;
+    text-align: center;
+  }
+  .list tbody{
+    background-color: rgba(230, 230, 230, 0.746);
+  }
+  footer{
+  
+   float: right;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 0;
+    background: rgba(255, 255, 255, 0);
+  
+  }
+  .list button{
+    margin: auto;
+  }
+  .view{
+    background: url("C:\Users\gunja\Desktop\react\INTERVIEWTRACKING\src\images\bgimage.jpg") no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 66vw;
+  }
+  .viewc{
+    background: fixed ;
+    background-color:#e0e0d1;
+    /* background: url("C:\Users\gunja\Desktop\react\INTERVIEWTRACKING\src\images\view.jpg") no-repeat ; */
+    background-size: cover;
+    height: 90vh;
+    width: 66vw;
+    
+  }
+  .view .box{
+    width:60%;
+    padding: 2%;
+    margin: auto;
+    background-color: rgba(196, 190, 190, 0.726);
+    border-radius: 20px;
+  }
+  .view label{
+  
+   color: rgb(8, 125, 235); 
+   font-size: 1.6rem;
+  }
+  .view h4{
+    color: rgb(247, 9, 9); 
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+  }
+  .view .content{
+    color: rgb(4, 112, 27); 
+    font-size: 1.6rem;
+   display: inline;
+    
+  }
+  
